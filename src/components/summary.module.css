@@ -6,3 +6,23 @@
 .flex_name div h2 {
   font-size: 2.5rem;
 }
+
+.flex_div_two {
+  margin-top: 3.2rem;
+  padding-top: 3rem 0;
+}
+
+p {
+  color: hsl(28, 10%, 53%);
+}
+
+.flex_div_two p {
+  margin: 0.25rem;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.flex_div_two p:nth-child(1) {
+  font-weight: bold;
+  color: black;
+}

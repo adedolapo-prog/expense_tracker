@@ -1,13 +1,13 @@
-import { Fragment } from "react"
 import Header from "./components/header"
 import GraphCard from "./components/graphCard"
+import classes from "./App.module.css"
 
 function App() {
   return (
-    <Fragment>
+    <div className={classes.center}>
       <Header />
       <GraphCard />
-    </Fragment>
+    </div>
   )
 }
 

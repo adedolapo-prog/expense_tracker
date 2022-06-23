@@ -7,7 +7,7 @@ const Summary = () => {
         <p>Total this month</p>
         <h2 className={classes.header}>$478.33</h2>
       </div>
-      <div>
+      <div className={classes.flex_div_two}>
         <p>+2.4%</p>
         <p>from last month</p>
       </div>
