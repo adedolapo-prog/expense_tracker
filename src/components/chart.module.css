@@ -17,9 +17,9 @@
   width: 100%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .overall_chart_container {
-    width: 2.5rem;
+    max-width: 2.5rem;
     text-align: center;
   }
 
