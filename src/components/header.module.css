@@ -1,0 +1,39 @@
+.header_card {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 20px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex_item_one p,
+.flex_item_one h2 {
+  color: #fff;
+}
+
+.flex_item_two {
+  position: relative;
+  width: 10rem;
+}
+
+.white {
+  position: absolute;
+  top: 25%;
+  left: 3.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 2px solid #fff;
+  border-radius: 1000px;
+  z-index: 10;
+}
+
+.black {
+  position: absolute;
+  top: 25%;
+  left: 5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 1000px;
+}
