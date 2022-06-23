@@ -48,7 +48,7 @@ const Chart = () => {
         }
 
         return (
-          <div key={data.id}>
+          <div className={classes.overall_chart_container} key={data.id}>
             <div className={classes.chart_container}>
               <div style={dataStyle} className={classes.chart_bar}></div>
             </div>

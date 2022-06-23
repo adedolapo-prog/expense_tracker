@@ -16,3 +16,20 @@
   bottom: 0;
   width: 100%;
 }
+
+@media (max-width: 400px) {
+  .overall_chart_container {
+    width: 2.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.7rem;
+    margin: 0.5rem;
+  }
+
+  .chart_container {
+    margin: auto;
+    max-width: 2rem;
+  }
+}

@@ -7,6 +7,22 @@
   font-size: 2.5rem;
 }
 
+@media (max-width: 400px) {
+  .flex_div_one {
+    margin-top: 1rem;
+  }
+
+  .flex_name div h2 {
+    font-size: 2rem;
+    margin-left: 0;
+  }
+
+  .flex_name div p:nth-child(1) {
+    font-size: 0.8rem;
+    margin-left: 0;
+  }
+}
+
 .flex_div_two {
   margin-top: 3.2rem;
   padding-top: 3rem 0;

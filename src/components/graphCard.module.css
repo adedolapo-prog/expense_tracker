@@ -7,3 +7,9 @@
 hr {
   background-color: hsl(28, 10%, 53%);
 }
+
+@media (max-width: 400px) {
+  .graph_card {
+    padding: 20px;
+  }
+}

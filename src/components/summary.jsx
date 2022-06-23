@@ -3,9 +3,9 @@ import classes from "./summary.module.css"
 const Summary = () => {
   return (
     <div className={classes.flex_name}>
-      <div>
+      <div className={classes.flex_div_one}>
         <p>Total this month</p>
-        <h2 className={classes.header}>$478.33</h2>
+        <h2>$478.33</h2>
       </div>
       <div className={classes.flex_div_two}>
         <p>+2.4%</p>
